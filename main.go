@@ -8,7 +8,7 @@
 // This helper library uses Create for main components like Actions and Cards
 // while Add is used for adding additional components to the main components,
 // like adding a Widget to a Card, or adding a Button to a Widget
-package WorkspaceAddOns
+package workspaceaddons
 
 import (
 	"encoding/json"
