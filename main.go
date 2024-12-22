@@ -224,5 +224,5 @@ type PreviewSmartChipCard struct {
 }
 
 type ActionCard struct {
-	Action PreviewSmartChipCard `json:"linkPreview"`
+	Action PreviewSmartChipCard `json:"action"`
 }
