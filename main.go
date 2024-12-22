@@ -210,3 +210,15 @@ type CardFixedFooterWrapper struct {
 	PrimaryButton   Button `json:"primaryButton,omitempty"`
 	SecondaryButton Button `json:"secondaryButton,omitempty"`
 }
+
+// Preview smartchip
+// Will be moved to different file later
+type LinkPreview struct {
+	PreviewCard      Card   `json:"previewCard"`
+	Title            string `json:"title"`
+	LinkPreviewTitle string `json:"linkPreviewTitle"`
+}
+
+type PreviewSmartChipCard struct {
+	LinkPreviewiCardAction LinkPreview `json:"action"`
+}
