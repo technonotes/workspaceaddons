@@ -220,5 +220,9 @@ type LinkPreview struct {
 }
 
 type PreviewSmartChipCard struct {
-	LinkPreviewiCardAction LinkPreview `json:"action"`
+	LinkPreviewCardAction LinkPreview `json:"linkPreview"`
+}
+
+type ActionCard struct {
+	Action PreviewSmartChipCard `json:"linkPreview"`
 }
