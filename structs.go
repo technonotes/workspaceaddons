@@ -81,6 +81,8 @@ type AuthorizationEventObject struct {
 
 	// The end user OAuth access token, authorized with the requested scopes
 	UserOAuthToken *string `json:"userOAuthToken,omitempty"`
+
+	AuthorizedScopes []string `json:"authorizedScopes,omitempty"`
 }
 
 // A border style.
